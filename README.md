@@ -28,7 +28,7 @@ In this tutorial, our goal is to create a simple `Book` class. We'll want it to 
 ### Set Up
 
 The project directory structure is pretty much set up for us already. We have a `spec` folder that contains our tests, and we have a `book.rb` file in the 'lib' directory that we'll actually be coding in.
-
+ 
 Whenever the tutorial says to 'run the specs', you should type the following into your command line:
 
 ```bash
@@ -147,10 +147,10 @@ And if we run the specs again, we see this output:
 ```bash
 1) Book properties has a title
      Failure/Error: expect(book.title).to eq("And Then There Were None")
-       
+
        expected: "And Then There Were None"
             got: nil
-       
+
        (compared using ==)
      # ./spec/01_book_spec.rb:14:in `block (3 levels) in <top (required)>'
 ```
@@ -187,10 +187,10 @@ Easy as pie. Run those specs again and let's see what happens:
 ```bash
 1) Book properties has a title
      Failure/Error: expect(book.title).to eq("And Then There Were None")
-       
+
        expected: "And Then There Were None"
             got: nil
-       
+
        (compared using ==)
      # ./spec/01_book_spec.rb:14:in `block (3 levels) in <top (required)>'
 ```
